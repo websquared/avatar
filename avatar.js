@@ -67,8 +67,8 @@
       var canvas, context, font_size, height, width, x, y;
       canvas = document.createElement('canvas');
       context = canvas.getContext('2d');
-      width = this.element.width;
-      height = this.element.height;
+      width = this.settings.size;
+      height = this.settings.size;
       x = width / 2;
       y = height / 2;
       font_size = options.initial_size || height / 2;
